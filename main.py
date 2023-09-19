@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage
 
 # Defina suas credenciais de login
-email = 'luciana.gomes@grupomulti.com.br'
-password = 'Nicolas1201'
+email = 'e-mail'
+password = 'senha'
 
 # Crie uma conexão SMTP com o servidor do Gmail
 server = smtplib.SMTP('smtp.gmail.com', 587)
@@ -17,7 +17,7 @@ server.login(email, password)
 
 # Defina os parâmetros do e-mail
 from_email = email
-to_email = 'lucas.melo@grupomulti.com.br'
+to_email = 'e-mail'
 subject = 'Cardapio de Hoje!'
 body = 'Não Perca!!!'
 
